@@ -38,3 +38,13 @@ This script is intended for free use within the FiveM community. Selling this sc
 **Statement from the Author**
 
 I created this script to enhance the roleplay experience for mechanics in FiveM. I encourage everyone to contribute by suggesting improvements or adding new features. However, I strictly prohibit the sale of this script or any part of it, in the spirit of the FiveM community.
+
+🔻🔻🔻
+Nebelbank.net
+The Power of Perfection
+Don’t flame without brain!
+Your Satisfaction is our Achievement!
+
+🕹 Multigaming Community seit 1997
+🔗Links: https://bit.ly/3M5u63T
+🔺🔺🔺
