@@ -16,8 +16,8 @@ This script is designed for FiveM servers and adds functionality for mechanics t
 ### Installation
 
 1. Download the script and place it in your server's resource folder.
-2. Add `start [YourScriptFolderName]` to your `server.cfg` file.
-3. Restart your server or type `refresh` in the server console, followed by `start [YourScriptFolderName]`.
+2. Add `start nblbnk_cargobob-magnetic` to your `server.cfg` file.
+3. Restart your server or type `refresh` in the server console, followed by `start nblbnk_cargobob-magnetic`.
 
 ### Usage
 
