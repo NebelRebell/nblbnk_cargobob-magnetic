@@ -1,51 +1,92 @@
 # FiveM Mechanic Magnet Script
 ## nblbnk_cargobob-magnetic
 
-### Overview
+### 🛠️ Overview
 
-This script is designed for FiveM servers and adds functionality for mechanics to use a magnet with cargo helicopters. The script allows mechanics to activate and deactivate a magnet, adjust its strength, and attach or detach vehicles. The script uses native FiveM functions and is intended to enhance the roleplay experience for mechanics.
-
-### Features
-
-- Activate/Deactivate magnet on cargo helicopters
-- Adjust magnet strength
-- Attach/Detach vehicles
-- Job-specific: Only mechanics can use this feature
-- **Important**: Once the magnet is deactivated, it cannot be reactivated without respawning the Cargobob.
-
-### Installation
-
-1. Download the script and place it in your server's resource folder.
-2. Add `start nblbnk_cargobob-magnetic` to your `server.cfg` file.
-3. Restart your server or type `refresh` in the server console, followed by `start nblbnk_cargobob-magnetic`.
-
-### Usage
-
-- Press `H` to toggle the magnet on/off.
-- Press `Left Ctrl + E` to toggle magnet power.
-- Other controls are specified in the script.
-
-### Contributing
-
-Feel free to contribute to this project by submitting pull requests or issues. Your input is highly valued, and together we can make this script even better.
-
-### License & Restrictions
-
-This script is intended for free use within the FiveM community. Selling this script or any part of it is strictly prohibited.
+This script is designed for **FiveM servers** and adds functionality for **mechanics** to use a **magnet** with cargo helicopters.  
+It allows toggling the magnet, attaching/detaching vehicles, and integrates cleanly with **QBCore**.  
+Originally built for **ESX**, now fully reworked and optimized for **QBCore**.
 
 ---
 
-**Statement from the Author**
+### ✨ Features
 
-I created this script to enhance the roleplay experience for mechanics in FiveM. I encourage everyone to contribute by suggesting improvements or adding new features. However, I strictly prohibit the sale of this script or any part of it, in the spirit of the FiveM community.
+- 🚁 Activate/Deactivate magnet (Cargobob hook system)
+- 🧲 Attach & detach nearby vehicles (toggle)
+- 👨‍🔧 Job-lock: Only players with the `mechanic` job can use it
+- 🔄 Clean native detachment & reset
+- 🔧 Fully converted for **QBCore framework**
+- 🔒 Controlled via `H` and `E` keys only
+- 🧠 Optimized notifications via `QBCore.Functions.Notify`
+
+> ⚠️ **Important:**  
+> Once the magnet is deactivated, the hook must be reset via `/removehook` or respawning the Cargobob.
+
+---
+
+### 📦 Installation
+
+1. Download or clone this repository
+2. Place the folder inside your `resources/` directory
+3. Add the resource to your `server.cfg`:
+   ```
+   ensure nblbnk_cargobob-magnetic
+   ```
+4. Restart your server or run:
+   ```
+   refresh
+   start nblbnk_cargobob-magnetic
+   ```
+
+---
+
+### 🎮 Controls
+
+| Key                | Action                          |
+|--------------------|----------------------------------|
+| `H`                | Deploy / Retract Magnet Hook     |
+| `E`                | Attach / Detach vehicle          |
+| `/removehook`      | Manual detach/reset (chat cmd)   |
+
+> 🧑‍🔧 **Mechanic job required to use all features!**
+
+---
+
+### 🤝 Contributing
+
+Pull requests and issue reports are always welcome!  
+Help improve this project and suggest new features to keep roleplay evolving.
+
+---
+
+### 📜 License & Usage Rules
+
+- ✅ Free to use in all FiveM projects
+- ❌ **Do NOT sell** this script or claim as your own
+- ✅ Credits to the original author must remain intact
+- 🧩 Open-source for community improvements
+
+---
+
+### 🧑‍💻 Author's Statement
+
+> I developed this script to add realism and immersion for mechanic RP in FiveM.  
+> Please respect the community spirit — don’t monetize this work, but feel free to share and enhance it.  
+> Thank you to everyone supporting **open development**.
+
+---
+
+### 📌 Community
+
+**JOIN DISCORD ➞** [https://discord.gg/scg3YqZFU6](https://discord.gg/scg3YqZFU6)  
+Let’s grow this together — feedback, bugs, and ideas are welcome!
 
 ---
 
 🔻🔻🔻  
-Nebelbank.net  
-The Power of Perfection  
-Don’t flame without brain!  
-Your Satisfaction is our Achievement!  
-🕹 Multigaming Community seit 1997  
-🔗Links: [Nebelbank.net Links](https://bit.ly/3M5u63T)  
+🦉 **NEBELBANK.NET**  
+🌐 [https://linktr.ee/nebelbanknet](https://linktr.ee/nebelbanknet)  
+💬 THE POWER OF PERFECTION  
+🔥 DON’T FLAME WITHOUT BRAIN!  
+🏆 YOUR SATISFACTION IS OUR ACHIEVEMENT!  
 🔺🔺🔺
